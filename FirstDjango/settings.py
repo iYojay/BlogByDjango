@@ -25,7 +25,7 @@ SECRET_KEY = 'li-uwil7d3j@*!994c+#(*5a6j3ske)&7374rc&ne)@(!igh9$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.zmrenwu.com']
+ALLOWED_HOSTS = ['47.98.106.123','127.0.0.1', 'localhost', '.wangyuejian.com']
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bbs',
     # 'blog',
     'blog.apps.BlogConfig',  # 注册 blog 应用
     'comments.apps.CommentsConfig',  # 注册 comments 应用

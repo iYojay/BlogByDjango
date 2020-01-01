@@ -2,15 +2,6 @@ from django.conf.urls import url
 from django.urls import path
 from blog import views
 
-#from django.conf.urls import url
-
-# urlpatterns = [
-#     url(r'blog_index/',views.blog_index),
-#     url(r'index/',views.index),
-#
-#
-# ]
-
 
 app_name = 'blog'
 
