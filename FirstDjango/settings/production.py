@@ -8,7 +8,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['47.98.106.123','127.0.0.1', 'localhost', 'www.wangyuejian.com']
 
-#######
+###########
 
 DATABASES = {
     'default': {
